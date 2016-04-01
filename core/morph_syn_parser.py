@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+https://github.com/cltl/morphosyntactic_parser_nl#!/usr/bin/env python
 
 import os
 import sys
@@ -129,7 +129,6 @@ def process_alpino_xml(xml_file,sentence,count_terms,knaf_obj,cnt_t,cnt_nt,cnt_e
         term_obj.set_type(termtype)
         knaf_obj.add_term(term_obj)
 
-        knaf_obj.add_term(term_obj)
     ##########################################
         
     ##########################################
